@@ -4,7 +4,7 @@ import GrillaGift from "./componente/grillaGift";
 
 const GifExpertApp = ( ) => {
 
-    const [categorias, setcategorias ] = useState( ['One Punch'] );
+    const [categorias, setcategorias ] = useState( [''] );
     // const add = () => setcategorias( cate => [ ...categorias, 'Digimon' ] );
     // const add = () => setcategorias( [ ...categorias, 'Digimon' ] );
     return (

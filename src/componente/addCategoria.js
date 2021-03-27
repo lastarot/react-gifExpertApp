@@ -11,7 +11,6 @@ const AddCategoria = ( { setcategorias } ) => {
         e.preventDefault();
         if ( valor.trim().length > 2 ) {
             setcategorias( cate => [ valor, ...cate ]);
-            console.log('Submit con valor ', valor);
             setValor( ' ' );
         }
     };
@@ -22,6 +21,7 @@ const AddCategoria = ( { setcategorias } ) => {
             type="text"
             value={ valor }
             onChange={ inputChange }
+            placeholder="que gif quieres ver?"
       />
       {/* <button> agregar catigoria </button> */}
     </form>

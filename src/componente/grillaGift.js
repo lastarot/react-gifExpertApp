@@ -4,8 +4,7 @@ import GrillaGiftItem from './grillaGiftItem';
 
 const GrillaGift = ( { categoria } ) => {
 
-
-const { data: imagenes, loading } = useFetchGift( categoria );
+    const { data: imagenes , loading } = useFetchGift( categoria );
 
   return (
     <>
